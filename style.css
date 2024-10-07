@@ -1,0 +1,122 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe4e1; /* Fundo rosa claro */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://www.transparenttextures.com/patterns/white-waves.png'); /* Textura leve no fundo */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ffcccc;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave no header */
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra no texto do título */
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Primeira seção */
+.primeira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    max-width: 80%;
+    background-color: #ffb6c1;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte na div */
+    background-image: url('https://www.transparenttextures.com/patterns/brick-wall.png'); /* Textura de tijolinhos */
+}
+
+.primeira p {
+    font-size: 1.4rem;
+}
+
+.primeira img {
+    width: 100%; /* Ajusta a imagem para ocupar 100% da largura da div */
+    max-width: 600px; /* Limita o tamanho máximo da imagem */
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Sombra nas imagens */
+}
+
+/* Segunda seção */
+.segunda {
+    background-color: #ffb6c1;
+    padding: 3rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 80%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra forte na segunda div */
+    background-image: url('https://www.transparenttextures.com/patterns/bedge-grunge.png'); /* Textura sutil */
+}
+
+.segunda img {
+    width: 100%; /* Ajusta a imagem para ocupar 100% da largura da div */
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Sombra nas imagens */
+}
+
+.segunda p {
+    max-width: 80%;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
+
+/* Terceira seção */
+.terceira {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    max-width: 80%;
+    background-color: #ffc0cb;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra na terceira div */
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png'); /* Textura leve na terceira seção */
+}
+
+.terceira img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Sombra nas imagens */
+}
